@@ -12,6 +12,7 @@
 		AE5961721A52412D00CB9DD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5961711A52412D00CB9DD2 /* Images.xcassets */; };
 		AE5961751A52412D00CB9DD2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5961731A52412D00CB9DD2 /* MainMenu.xib */; };
 		AE5961811A52412D00CB9DD2 /* MidiTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5961801A52412D00CB9DD2 /* MidiTestTests.m */; };
+		AE59618B1A52414100CB9DD2 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE59618A1A52414100CB9DD2 /* CoreMIDI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		AE59617A1A52412D00CB9DD2 /* MidiTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidiTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE59617F1A52412D00CB9DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE5961801A52412D00CB9DD2 /* MidiTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidiTestTests.m; sourceTree = "<group>"; };
+		AE59618A1A52414100CB9DD2 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE59618B1A52414100CB9DD2 /* CoreMIDI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +61,7 @@
 		AE59615E1A52412D00CB9DD2 = {
 			isa = PBXGroup;
 			children = (
+				AE59618A1A52414100CB9DD2 /* CoreMIDI.framework */,
 				AE5961691A52412D00CB9DD2 /* MidiTest */,
 				AE59617D1A52412D00CB9DD2 /* MidiTestTests */,
 				AE5961681A52412D00CB9DD2 /* Products */,

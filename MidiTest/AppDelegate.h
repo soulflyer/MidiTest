@@ -7,6 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <CoreMIDI/CoreMIDI.h>
+
+NSString *getName(MIDIObjectRef object);
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
